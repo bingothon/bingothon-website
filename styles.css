@@ -88,6 +88,20 @@ body{
   color:inherit;
 }
 
+/* special treatment for smaller (mobile) devices*/
+@media screen and (max-width: 650px) {
+  .menu-item {
+    font-size: 8px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu-item a {
+    width: 80px;
+    height: 75px;
+  }
+}
+
 .nav{
 	width: 100%;
 	max-width: auto;
