@@ -46,8 +46,10 @@
 body{
  /* background: #e6e6e6; */
   background-image: url("background.png");
-  font-family: 'Fugaz One';
+  color: #fff;
+  font-family: Helvetica;
 }
+
 .tg {
   display: table-cell;
   vertical-align: middle;
@@ -56,6 +58,7 @@ body{
 }
 .menu-item {
   font-size: 20px;
+  font-family: Fugaz One;
   width: 200px;
   height: 200px;
   border: 0 solid black;
@@ -115,12 +118,19 @@ body{
 }
 
 .nav{
+  font-family: "Fugaz One";
 	width: 100%;
 	max-width: auto;
 	background-color: rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  font-style: normal;
+  text-decoration: solid;
 }
 
 .nav ul{
