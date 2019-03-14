@@ -38,22 +38,77 @@
     src: local('Helvetica Bold Oblique'), url('fonts/Helvetica-BoldOblique.woff') format('woff');
 }
 .wrapper{
-    display: table;
-    margin: 0 auto;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 90%;
+    min-height: 98vh;
+    width: 100%;
 }
+
+.table-wrapper {
+	display: table-cell;
+	margin: 0 auto;
+}
+
 
 body{
  /* background: #e6e6e6; */
-  background-image: url("background.png");
+  background-image: url("background-home.png");
+  background-size: cover;
   color: #fff;
   font-family: Helvetica;
+ 
+}
+
+@keyframes background-change {
+  0% {
+    opacity: 1;
+    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-size: 100% 100%;
+  }
+  46% {
+    opacity: 1;
+    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-size: 100% 100%;
+  }
+  48% {
+    opacity: 0;
+    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-size: 100% 100%;
+  }
+  50% {
+    opacity: 0;
+    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-size: 100% 100%;
+  }
+  52% {
+    opacity: 1;
+    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-size: 100% 100%;
+  }
+  96% {
+    opacity: 1;
+    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-size: 100% 100%;
+  }
+  98% {
+    opacity: 0;
+    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-size: 100% 100%;
+  }
+  99% {
+    opacity: 0;
+    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-size: 100% 100%;
+  }
+  100% {
+    opacity: 0;
+    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-size: 100% 100%;
+  }
 }
 
 .tg {
-  display: table-cell;
-  vertical-align: middle;
-  
   border-spacing: 10px;
 }
 .menu-item {
@@ -91,8 +146,22 @@ body{
   color:inherit;
 }
 
+.socials-table{
+	margin: 0 auto;
+}
+
+.socials-table a{
+	width: auto;
+	height: auto;
+}
+
 /* special treatment for smaller (mobile) devices*/
 @media screen and (max-width: 650px) {
+  .socials-table tr td img{
+	width: auto;
+	height: 32px;
+  }
+
   .menu-item {
     font-size: 8px;
     width: 80px;
@@ -114,6 +183,11 @@ body{
   text-decoration:none;
   text-align:center;
   color:inherit;
+  }
+  
+  .socials-table a{
+	width: auto;
+	height: auto;
   }
 }
 
@@ -153,8 +227,12 @@ a {
 }
 
 .center-logo {
-  background-image: url('pictures/logo.jpg');
   background-size: 100% 100%;
   background-color: white;
   border: 1px solid #fff;
+  animation: background-change 20s ease infinite;
 }
+
+
+
+
