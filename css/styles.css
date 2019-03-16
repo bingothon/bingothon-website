@@ -384,6 +384,7 @@ a {
 }
 
 /* What is Bingothon? */
+<<<<<<< HEAD
 .img-vertical-align {
     padding: 70px 0;
     margin: 0 auto;
@@ -394,6 +395,13 @@ a {
   margin: 0 auto;
 }
 
+=======
+.dwb-wrapper {
+  max-width: 1175px;
+  margin: 0 auto;
+}
+
+>>>>>>> ba8a88184609e5706ef198d911f8b2a80a3a207e
 .dwb-wrapper img{
   display: block;
   margin-top: 20px;
