@@ -384,67 +384,75 @@ a {
 }
 
 /* What is Bingothon? */
-        .dwb-wrapper {
-        	max-width: 1175px;
-        	margin: 0 auto;
-        }
-        .dwb-wrapper img{
-        	display: block;
-			margin-top: 20px;
-			width: 400px;
-        }
-        .wib-text{
-        	margin: 0 auto;
-        	text-align: left;
-        	margin-top: 10px;
-        	max-width: 1175px;
-        }
+.dwb-wrapper {
+  max-width: 1175px;
+  margin: 0 auto;
+}
 
-		.title{
-			margin: 0 auto;
-			text-align: center;
-		}
-		h2.title{
-			margin-top: 40px;
-		}
-		h4.title{
-			max-width: 600px;
-			width: 100%;
-			margin-bottom: 10px;
-		}
-        .little-social {
-            width: 30px;
-            height: 30px;
-			margin-right: 5px;
-        }
-        .profilepic {
-            width: 60px;
-            height: 60px;
-        }
-        .shoutout-text {
-            vertical-align: text-top;
-            padding-left: 10px;
-        }
-        .shoutouts {
-            max-width: 750px;
-            padding: 10px;
-			border-collapse:collapse;
-			margin: 0 auto;
-			margin-top: 10px;
-        }
-        
-        .shoutouts tr {
-			background-color: rgba(0, 0, 0, 0.3);
-        }
-		.shoutouts tr:nth-child(even){
-			background-color: rgba(0, 0, 0, 0.2);
-		}
-		.shoutouts td{
-			
-        }
-        .shoutouts tr.titlerow {
-            background-color: unset;
-        }
+.dwb-wrapper img{
+  display: block;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.wib-text{
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10px;
+  max-width: 1175px;
+}
+
+.title{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2.title{
+  margin-top: 40px;
+}
+
+h4.title{
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.little-social {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.profilepic {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+}
+
+.shoutouts {
+  max-width: 750px;
+  padding: 10px;
+  border-collapse:collapse;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.shoutouts tr {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.shoutouts tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shoutouts td{
+  vertical-align: top;
+  padding: 3px;
+}
+
+.shoutouts tr.titlerow {
+    background-color: unset;
+}
         
 /* schedule */
 
