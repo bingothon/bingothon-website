@@ -27,6 +27,8 @@ body{
   height: 40px;
   z-index: 3;
   position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
 }
 
 .header li{
