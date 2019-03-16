@@ -3,12 +3,11 @@
 
 
 body{
-  background: #581b1d;
-  background: linear-gradient(-128deg, #982f33 0, #220a0b 100%);
-  background-image: url("../pictures/background-home.png"), linear-gradient(-128deg, #982f33 0, #220a0b 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
+  
+  background:
+    url("../pictures/background-home-top.png") top left no-repeat fixed,
+    url("../pictures/background-home-bottom.png") bottom right no-repeat fixed,
+    linear-gradient(-128deg, #982f33 0, #220a0b 100%) 100% no-repeat fixed;
   color: #fff;
   font-family: Helvetica;
  
@@ -301,7 +300,8 @@ body{
 /* special treatment for smaller (mobile) devices*/
 @media screen and (max-width: 650px) {
   body {
-  	background-attachment: initial;
+    /*matching backgrounds from standard body, scale down top down stripes*/
+  	background-size: 50%, 50%, 100%;
   }
   .socials-table tr td img {
     width: auto;
