@@ -1,36 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>News | Bingothon</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="shortcut icon" type="image/x-icon" href="pictures/favicon.ico" />
-  <style>
-    .twitter-timeline {
-        float: right;
-    }
-  </style>
+  <script src="../js/htmlinclude.js"></script>
   <title>News | Bingothon</title>
-  <link rel="shortcut icon" type="image/x-icon" href="pictures/favicon.ico" />
 </head>
 <body>
-    <div class="nav">
-	<ul class="menu">
-        <li><a href="/"><img class="home-button" src="pictures/logo.jpg"/></a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="https://devsubmissions.bingothon.com">Submissions</a></li>
-        <li><a href="https://devdonations.bingothon.com">Donate</a></li>
-        <li><a href="https://discord.bingothon.com">Socials</a></li>
-        <li><a href="staff.html">Staff</a></li>
-        <li><a href="https://twitch.tv/speedrunslive">Twitch</a></li>
-        <li><a href="privacypolicy.html">Privacy Policy</a></li>
-    </ul>
-</div>
+<div class="wrapper">
+<div w3-include-html="nav.html"></div>
+
+
     <a class="twitter-timeline" data-theme="dark" data-width="300" data-height="500" href="https://twitter.com/bingothon?ref_src=twsrc%5Etfw">Tweets by bingothon</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <h2>Bingothon will be back soon in 2019!</h2>
     <p>From 24th to 27th May, we're holding the second iteration of our event, submissions open soon. Follow us on twitter for updates</p>
+</div>
+
+<script>
+includeHTML();
+</script>
 </body>
+</html>

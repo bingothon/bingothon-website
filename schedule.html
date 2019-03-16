@@ -2,58 +2,34 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Schedule | Bingothon</title>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <style>
-        tr.break td {
-            height: 80px;
-        }
-        .tablehead{
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.5);
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: rgba(0, 0, 0, 0.2);
-            height: 60px;
-        }
-        tr{
-            height: 60px;
-            text-align: center;
-        }
-        td
-        {
-            padding:0 15px 0 15px;
-        }
-    </style>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/footable.standalone.css">
   <link rel="shortcut icon" type="image/x-icon" href="pictures/favicon.ico" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="../js/footable.min.js"></script>
+  <script src="../js/htmlinclude.js"></script>
+  <title>Schedule | Bingothon</title>
+  <script>
+        jQuery(function($) {
+            $('.schedule').footable();
+        });
+  </script>
 </head>
 <body>
-<div class="nav">
-	<ul class="menu">
-        <li><a href="/"><img class="home-button" src="pictures/logo.jpg"/></a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="https://devsubmissions.bingothon.com">Submissions</a></li>
-        <li><a href="https://devdonations.bingothon.com">Donate</a></li>
-        <li><a href="https://discord.bingothon.com">Socials</a></li>
-        <li><a href="staff.html">Staff</a></li>
-        <li><a href="https://twitch.tv/speedrunslive">Twitch</a></li>
-        <li><a href="privacypolicy.html">Privacy Policy</a></li>
-    </ul>
-</div>
-<table>
+<div class="wrapper">
+<div w3-include-html="nav.html"></div>
+ <h1 class="title">Bingothon 2018 (previous schedule)</h1>
+<table class="schedule">
   <thead>
     <tr class="tablehead">
-      <td>Time</td>
-      <td>Runner(s)</td>
-      <td>Game</td>
-      <td>Category</td>
-      <td>Console</td>
+      <th>Time</th>
+      <th data-breakpoints="xs">Runner(s)</th>
+      <th data-breakpoints="xs">Game</th>
+      <th data-breakpoints="xs">Category</th>
+      <th data-breakpoints="xs">Console</th>
     </tr>
   </thead>
   <tbody>
@@ -174,5 +150,9 @@
 
   </tbody>
 </table>
+</div>
+<script>
+includeHTML();
+</script>
 </body>
 </html>
