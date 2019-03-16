@@ -3,12 +3,11 @@
 
 
 body{
-  background: #581b1d;
-  background: linear-gradient(-128deg, #982f33 0, #220a0b 100%);
-  background-image: url("../pictures/background-home.png"), linear-gradient(-128deg, #982f33 0, #220a0b 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
+  
+  background:
+    url("../pictures/background-home-top.png") top left no-repeat fixed,
+    url("../pictures/background-home-bottom.png") bottom right no-repeat fixed,
+    linear-gradient(-128deg, #982f33 0, #220a0b 100%) 100% no-repeat fixed;
   color: #fff;
   font-family: Helvetica;
  
@@ -28,6 +27,8 @@ body{
   height: 40px;
   z-index: 3;
   position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
 }
 
 .header li{
@@ -301,7 +302,8 @@ body{
 /* special treatment for smaller (mobile) devices*/
 @media screen and (max-width: 650px) {
   body {
-  	background-attachment: initial;
+    /*matching backgrounds from standard body, scale down top down stripes*/
+  	background-size: 50%, 50%, 100%;
   }
   .socials-table tr td img {
     width: auto;
@@ -386,68 +388,75 @@ a {
             padding: 70px 0;
             margin: 0 auto;
         }
-        .dwb-wrapper {
-        	max-width: 1175px;
-        	margin: 0 auto;
-        }
-        .dwb-wrapper img{
-        	display: block;
-			margin-top: 20px;
-			width: 400px;
-        }
-        .wib-text{
-        	margin: 0 auto;
-        	text-align: left;
-        	margin-top: 10px;
-        	max-width: 1175px;
-                padding: 70px 0;
-        }
+.dwb-wrapper {
+  max-width: 1175px;
+  margin: 0 auto;
+}
 
-		.title{
-			margin: 0 auto;
-			text-align: center;
-		}
-		h2.title{
-			margin-top: 40px;
-		}
-		h4.title{
-			max-width: 600px;
-			width: 100%;
-			margin-bottom: 10px;
-		}
-        .little-social {
-            width: 30px;
-            height: 30px;
-			margin-right: 5px;
-        }
-        .profilepic {
-            width: 60px;
-            height: 60px;
-        }
-        .shoutout-text {
-            vertical-align: text-top;
-            padding-left: 10px;
-        }
-        .shoutouts {
-            max-width: 750px;
-            padding: 10px;
-			border-collapse:collapse;
-			margin: 0 auto;
-			margin-top: 10px;
-        }
-        
-        .shoutouts tr {
-			background-color: rgba(0, 0, 0, 0.3);
-        }
-		.shoutouts tr:nth-child(even){
-			background-color: rgba(0, 0, 0, 0.2);
-		}
-		.shoutouts td{
-			
-        }
-        .shoutouts tr.titlerow {
-            background-color: unset;
-        }
+.dwb-wrapper img{
+  display: block;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.wib-text{
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10px;
+  max-width: 1175px;
+}
+
+.title{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2.title{
+  margin-top: 40px;
+}
+
+h4.title{
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.little-social {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.profilepic {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+}
+
+.shoutouts {
+  max-width: 750px;
+  padding: 10px;
+  border-collapse:collapse;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.shoutouts tr {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.shoutouts tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shoutouts td{
+  vertical-align: top;
+  padding: 3px;
+}
+
+.shoutouts tr.titlerow {
+    background-color: unset;
+}
         
 /* schedule */
 
