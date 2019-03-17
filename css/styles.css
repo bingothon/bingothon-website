@@ -386,16 +386,11 @@ a {
 }
 
 /* What is Bingothon? */
-
-.img-vertical-align {
-    padding: 70px 0;
-    margin: 0 auto;
-}
-
 .dwb-wrapper {
   max-width: 1175px;
   margin: 0 auto;
 }
+
 .dwb-wrapper img{
   display: block;
   margin-top: 20px;
