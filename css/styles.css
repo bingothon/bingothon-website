@@ -27,7 +27,6 @@ body{
   height: 40px;
   z-index: 3;
   position: relative;
-  overflow: hidden;
   margin-bottom: 1em;
 }
 
@@ -139,9 +138,12 @@ body{
   top: 0;
 }
 
-/* 48em = 768px */
+/* 64em = 1024px */
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
+  .header{
+  	overflow: hidden;
+  }
   .header ul {
     margin: 0;
     padding: 0;
