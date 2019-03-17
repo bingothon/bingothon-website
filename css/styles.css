@@ -30,6 +30,21 @@ body{
   margin-bottom: 1em;
 }
 
+.header .mobile-only{
+	display:inline-block;
+	margin-left: 10px;
+}
+
+.header .imagebutton{
+	padding: 10px;
+}
+
+.header .image-button-mobile{
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+}
+
 .header li{
 	font-family: Fugaz One;
 	text-transform: uppercase;
@@ -143,6 +158,9 @@ body{
 @media (min-width: 64em) {
   .header{
   	overflow: hidden;
+  }
+  .header .mobile-only{
+	display: none;
   }
   .header ul {
     margin: 0;
