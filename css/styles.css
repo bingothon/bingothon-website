@@ -501,6 +501,12 @@ h4.title{
   float: right;
 }
 
+/* news */
+
+.newslink {
+    text-decoration: underline;
+}
+
 /* helpers */
 
 .vertical-align {
