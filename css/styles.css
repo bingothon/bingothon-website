@@ -27,8 +27,22 @@ body{
   height: 40px;
   z-index: 3;
   position: relative;
-  overflow: hidden;
   margin-bottom: 1em;
+}
+
+.header .mobile-only{
+	display:inline-block;
+	margin-left: 10px;
+}
+
+.header .imagebutton{
+	padding: 10px;
+}
+
+.header .image-button-mobile{
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
 }
 
 .header li{
@@ -119,7 +133,7 @@ body{
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 690px;
+  max-height: 732px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -139,9 +153,15 @@ body{
   top: 0;
 }
 
-/* 48em = 768px */
+/* 64em = 1024px */
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
+  .header{
+  	overflow: hidden;
+  }
+  .header .mobile-only{
+	display: none;
+  }
   .header ul {
     margin: 0;
     padding: 0;
@@ -156,7 +176,7 @@ body{
     text-transform:uppercase;
   }
   .header li a {
-    padding: 10px 20px;
+    padding: 10px 14px;
   }
   .header li .imagebutton {
     padding: 0px;
@@ -384,16 +404,11 @@ a {
 }
 
 /* What is Bingothon? */
-
-.img-vertical-align {
-    padding: 70px 0;
-    margin: 0 auto;
-}
-
 .dwb-wrapper {
   max-width: 1175px;
   margin: 0 auto;
 }
+
 .dwb-wrapper img{
   display: block;
   margin-top: 20px;
