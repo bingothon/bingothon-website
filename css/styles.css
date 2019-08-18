@@ -232,37 +232,37 @@ body{
 
   50% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   52% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   96% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   98% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   99% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   100% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 }
