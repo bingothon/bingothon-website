@@ -214,19 +214,19 @@ body{
 @keyframes background-change {
   0% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   46% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   48% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
