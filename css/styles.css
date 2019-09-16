@@ -5,9 +5,9 @@
 body{
   
   background:
-    url("../pictures/background-home-top.png") top left no-repeat fixed,
-    url("../pictures/background-home-bottom.png") bottom right no-repeat fixed,
-    linear-gradient(-128deg, #982f33 0, #220a0b 100%) 100% no-repeat fixed;
+    url("../pictures/background-home-top-winter.png") top left no-repeat fixed,
+    url("../pictures/background-home-bottom-winter.png") bottom right no-repeat fixed,
+    linear-gradient(-128deg, #627fbe 0, #050a1b 100%) 100% no-repeat fixed;
   color: #fff;
   font-family: Helvetica;
  
@@ -481,34 +481,31 @@ h4.title{
 /* schedule */
 
 .schedule tr.break td {
-            height: 80px;
-        }
-        .schedule .tablehead{
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.5);
-            font-weight: bold;
-        }
-        .schedule tr:nth-child(even) {
-            background-color: rgba(0, 0, 0, 0.2);
-            height: 60px;
-        }
-        .schedule tr{
-            height: 60px;
-            text-align: center;
-        }
-        .schedule td
-        {
-            
-        }
-        
-.twitter-timeline {
-  float: right;
+  height: 80px;
+}
+.schedule .tablehead{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.schedule tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 60px;
+}
+.schedule tr{
+  height: 60px;
+  text-align: center;
 }
 
 /* news */
 
+.twitter-timeline {
+  float: right;
+}
+
 .newslink {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #9496ff;
 }
 
 /* helpers */
