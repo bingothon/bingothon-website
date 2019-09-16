@@ -17,8 +17,12 @@ body{
   margin: 0 auto;
   max-width:1175px;
 }
-
+.home-info-text{
+   text-align:center; font-size: 33px;
+}
 /* header */
+
+
 
 .header {
   background-color: rgba(0, 0, 0, 0.4);
@@ -210,55 +214,55 @@ body{
 @keyframes background-change {
   0% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   46% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   48% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   50% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   52% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   96% {
     opacity: 1;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   98% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
     background-size: 100% 100%;
   }
 
   99% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 
   100% {
     opacity: 0;
-    background-image: url('https://dev.bingothon.com/pictures/logo.jpg');
+    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
     background-size: 100% 100%;
   }
 }

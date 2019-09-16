@@ -24,10 +24,10 @@
 
 
 @font-face {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Helvetica'), url('../fonts/Helvetica-Bold.woff') format('woff');
+    src: local('Helvetica Bold'), url('../fonts/Helvetica-Bold.woff') format('woff');
 }
 
 
