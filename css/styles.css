@@ -95,7 +95,6 @@ body{
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right;
   padding: 20px 20px;
   position: relative;
@@ -214,55 +213,55 @@ body{
 @keyframes background-change {
   0% {
     opacity: 1;
-    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
+    background-image: url('../pictures/logo-winter.png');
     background-size: 100% 100%;
   }
 
   46% {
     opacity: 1;
-    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
+    background-image: url('../pictures/logo-winter.png');
     background-size: 100% 100%;
   }
 
   48% {
     opacity: 0;
-    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
+    background-image: url('../pictures/logo-winter.png');
     background-size: 100% 100%;
   }
 
   50% {
     opacity: 0;
-    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('../pictures/Pure-Earth-square.png');
     background-size: 100% 100%;
   }
 
   52% {
     opacity: 1;
-    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('../pictures/Pure-Earth-square.png');
     background-size: 100% 100%;
   }
 
   96% {
     opacity: 1;
-    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('../pictures/Pure-Earth-square.png');
     background-size: 100% 100%;
   }
 
   98% {
     opacity: 0;
-    background-image: url('https://www.bingothon.com/pictures/bg-sw-1.png');
+    background-image: url('../pictures/Pure-Earth-square.png');
     background-size: 100% 100%;
   }
 
   99% {
     opacity: 0;
-    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
+    background-image: url('../pictures/logo-winter.png');
     background-size: 100% 100%;
   }
 
   100% {
     opacity: 0;
-    background-image: url('https://www.bingothon.com/pictures/logo.jpg');
+    background-image: url('../pictures/logo-winter.png');
     background-size: 100% 100%;
   }
 }
@@ -284,8 +283,8 @@ body{
   width: 200px;
   height: 200px;
   border: 0 solid black;
-  background-color: #1e1e1e;
-  color: #d2303f;
+  background-color: #3d408f;
+  color: #fff;
   text-align: center;
   font-weight: bold;
   letter-spacing: 0px;
@@ -293,7 +292,7 @@ body{
 }
 
 .menu-item.odd {
-  background-color: #d2303f;
+  background-color: #617fbe;
   color: #fff;
 }
 
